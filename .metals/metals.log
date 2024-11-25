@@ -1,0 +1,664 @@
+2024.11.25 18:15:28 INFO  Started: Metals version 1.4.1 in folders 'H:\scala\project\twitter\twitterproject' for client Visual Studio Code 1.95.3.
+2024.11.25 18:15:28 INFO  time: initialize in 0.14s
+2024.11.25 18:15:30 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.25 18:15:30 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:15:32 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:23:10 INFO  Started: Metals version 1.4.1 in folders 'H:\scala\project\twitter\twitterproject' for client Visual Studio Code 1.95.3.
+2024.11.25 18:23:15 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.25 18:23:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 25, 2024 6:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+2024.11.25 18:23:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:23:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:23:25 INFO  running 'C:\Users\CYTech Student\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CYTECH~1\AppData\Local\Temp\metals9357434937056631101\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.25 18:23:28 INFO  sbt thinks that server is already booting because of this exception:
+2024.11.25 18:23:28 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load7199139270475812693_lock, error 5
+2024.11.25 18:23:28 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2024.11.25 18:23:28 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2024.11.25 18:23:28 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:153)
+2024.11.25 18:23:28 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:79)
+2024.11.25 18:23:28 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:79)
+2024.11.25 18:23:28 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:87)
+2024.11.25 18:23:28 ERROR 	at sbt.xMain$.run(Main.scala:124)
+2024.11.25 18:23:28 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2024.11.25 18:23:28 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2024.11.25 18:23:28 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2024.11.25 18:23:28 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+2024.11.25 18:23:28 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2024.11.25 18:23:28 ERROR 	at sbt.xMain.run(Main.scala:48)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2024.11.25 18:23:28 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2024.11.25 18:23:28 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load7199139270475812693_lock, error 5
+2024.11.25 18:23:28 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2024.11.25 18:23:28 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2024.11.25 18:23:28 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2024.11.25 18:23:28 ERROR 	... 23 more
+2024.11.25 18:23:28 INFO  time: ran 'sbt bloopInstall' in 2.96s
+2024.11.25 18:23:28 ERROR sbt command failed: C:\Users\CYTech Student\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CYTECH~1\AppData\Local\Temp\metals9357434937056631101\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.11.25 18:23:28 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:27:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:11 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:11 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:12 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:14 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:24 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:24 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 25, 2024 6:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 90
+Nov 25, 2024 6:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 92
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:28 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:27 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:28:28 INFO  skipping build import with status 'Failed'
+2024.11.25 18:28:28 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:28 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:28:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:16 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:39 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:41 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:41 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:41 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:29:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:14 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:14 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:14 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:14 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:24 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:24 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:23 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:24 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:24 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:32 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:32 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:32 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:36 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:36 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:36 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:54 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:54 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:55 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Exception in thread "pool-76-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.25 18:33:55 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:55 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:56 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:33:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:06 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:34:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:06 INFO  skipping build import with status 'Failed'
+2024.11.25 18:34:11 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:40 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:40 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:40 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:40 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:42 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:42 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:53 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:34:53 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:34:53 INFO  skipping build import with status 'Failed'
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:07 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:35:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:07 INFO  skipping build import with status 'Failed'
+2024.11.25 18:35:10 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:12 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:16 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:21 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:35:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:35:20 INFO  skipping build import with status 'Failed'
+2024.11.25 18:36:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:38:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:32 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:34 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:43 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:43 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:45 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:46 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:53 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:53 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:53 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:54 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:54 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:56 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:56 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:56 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:42:00 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:42:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:41:59 INFO  skipping build import with status 'Failed'
+2024.11.25 18:42:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:11 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:25 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:43:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:01 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 18:44:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:44:01 INFO  skipping build import with status 'Failed'
+2024.11.25 18:44:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:38 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:42 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:42 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:42 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:48 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:46:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:58:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 18:58:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:32 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:47 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Exception in thread "pool-209-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.25 19:00:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:49 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:50 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:52 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:51 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:00:58 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:05 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 25, 2024 7:01:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 970
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:08 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:09 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:09 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:09 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:18 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:31 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:31 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:33 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:35 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:01:37 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:13 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:13 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:13 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:13 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:13 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:14 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:15 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 25, 2024 7:02:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1077
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:17 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:19 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:20 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:21 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:22 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:29 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:30 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:39 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 19:02:39 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:39 INFO  skipping build import with status 'Failed'
+2024.11.25 19:02:43 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:02:57 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:01 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:03 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:06 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 19:03:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:03:06 INFO  skipping build import with status 'Failed'
+2024.11.25 19:04:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:04:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:04:26 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:04:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:04:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:04:27 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:04 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:06 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:05:07 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 19:05:07 INFO  skipping build import with status 'Failed'
+2024.11.25 19:05:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:06:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:06:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:06:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:07:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:09:09 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:10:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:10:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:11:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:10:59 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:11:00 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:11:02 WARN  no build target for: H:\scala\project\twitter\twitterproject\Main.scala
+2024.11.25 19:11:02 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 19:11:02 INFO  skipping build import with status 'Failed'
+2024.11.25 19:18:28 INFO  Shutting down server
+2024.11.25 19:18:28 INFO  shutting down Metals
+2024.11.25 19:18:28 INFO  Exiting server
+2024.11.25 23:34:39 INFO  Started: Metals version 1.4.1 in folders 'H:\scala\project\twitter\twitterproject' for client Visual Studio Code 1.95.3.
+2024.11.25 23:34:40 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.25 23:34:40 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:34:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:34:44 INFO  skipping build import with status 'Failed'
+2024.11.25 23:34:44 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:34:47 INFO  time: code lens generation in 2.71s
+2024.11.25 23:34:54 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:34:54 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:35:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:35:07 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:35:09 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:44:36 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:44:36 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.25 23:44:38 INFO  no build target found for H:\scala\project\twitter\twitterproject\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
