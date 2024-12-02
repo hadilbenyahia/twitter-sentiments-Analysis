@@ -11,6 +11,13 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "3.3.0"  // Spark Co
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.3.0"  // Spark SQL
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.3.0"// Spark Streaming
 libraryDependencies += "org.mongodb.spark" %% "mongo-spark-connector" % "10.1.1"  // MongoDB Spark Connector
+libraryDependencies +="org.apache.spark" %% "spark-mllib" % "3.4.0" // Replace with your Spark version
+libraryDependencies += "org.scalameta" %% "scalameta" % "4.7.8"
+
+
+
+
+
 
 name := "TwitterStreamSimulator"
 

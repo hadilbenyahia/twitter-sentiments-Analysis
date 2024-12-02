@@ -1,58 +1,27 @@
-[0m[[0m[31merror[0m] [0m[0morg.apache.spark.sql.AnalysisException: Column 'tweet' does not exist. Did you mean one of the following? [2401, Positive, Borderlands, im getting on borderlands and i will murder you all ,];[0m
-[0m[[0m[31merror[0m] [0m[0m'Project ['tweet][0m
-[0m[[0m[31merror[0m] [0m[0m+- Relation [2401#17,Borderlands#18,Positive#19,im getting on borderlands and i will murder you all ,#20] csv[0m
-[0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:54)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$7(CheckAnalysis.scala:199)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$7$adapted(CheckAnalysis.scala:192)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$6(CheckAnalysis.scala:192)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$6$adapted(CheckAnalysis.scala:192)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:334)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:192)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:101)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:101)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:96)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:187)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:210)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:207)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$1(Dataset.scala:91)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:89)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.withPlan(Dataset.scala:3887)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.select(Dataset.scala:1519)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.select(Dataset.scala:1536)[0m
-[0m[[0m[31merror[0m] [0m[0m	at TwitterStreamSimulator$.main(Main.scala:31)[0m
-[0m[[0m[31merror[0m] [0m[0m	at TwitterStreamSimulator.main(Main.scala)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:566)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:144)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:94)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:121)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:187)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:121)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:2030)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1969)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:367)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.IllegalArgumentException: requirement failed: The number of columns doesn't match.[0m
+[0m[[0m[31merror[0m] [0m[0mOld column names (1): value[0m
+[0m[[0m[31merror[0m] [0m[0mNew column names (2): tweet, entity[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Predef$.require(Predef.scala:337)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset.toDF(Dataset.scala:504)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DatasetHolder.toDF(DatasetHolder.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at TwitterStreamSimulator$.$anonfun$main$3(Main.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at TwitterStreamSimulator$.$anonfun$main$3$adapted(Main.scala:65)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.dstream.DStream.$anonfun$foreachRDD$2(DStream.scala:629)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.dstream.DStream.$anonfun$foreachRDD$2$adapted(DStream.scala:629)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.dstream.ForEachDStream.$anonfun$generateJob$2(ForEachDStream.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.dstream.DStream.createRDDWithLocalProperties(DStream.scala:417)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.dstream.ForEachDStream.$anonfun$generateJob$1(ForEachDStream.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:217)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.scheduler.Job.run(Job.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.scheduler.JobScheduler$JobHandler.$anonfun$run$1(JobScheduler.scala:256)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.streaming.scheduler.JobScheduler$JobHandler.run(JobScheduler.scala:256)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.apache.spark.sql.AnalysisException: Column 'tweet' does not exist. Did you mean one of the following? [2401, Positive, Borderlands, im getting on borderlands and i will murder you all ,];[0m
-[0m[[0m[31merror[0m] [0m[0m'Project ['tweet][0m
-[0m[[0m[31merror[0m] [0m[0m+- Relation [2401#17,Borderlands#18,Positive#19,im getting on borderlands and i will murder you all ,#20] csv[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.IllegalArgumentException: requirement failed: The number of columns doesn't match.[0m
+[0m[[0m[31merror[0m] [0m[0mOld column names (1): value[0m
+[0m[[0m[31merror[0m] [0m[0mNew column names (2): tweet, entity[0m
